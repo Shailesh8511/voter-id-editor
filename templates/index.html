@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voter ID Editor</title>
+</head>
+<body>
+    <h2>Upload SD PDF and SSD Image</h2>
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <label>SD PDF: <input type="file" name="sd_pdf" accept=".pdf" required></label><br><br>
+        <label>SSD Image: <input type="file" name="ssd_img" accept="image/*" required></label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
